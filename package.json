@@ -1,0 +1,26 @@
+{
+  "name": "crew-profile-producer",
+  "version": "1.0.0",
+  "description": "Produces crew member profiles",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAlkh/crew-profile-producer.git"
+  },
+  "author": "Ahmed Alkhatib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedAlkh/crew-profile-producer/issues"
+  },
+  "homepage": "https://github.com/AhmedAlkh/crew-profile-producer#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.5"
+  }
+}
