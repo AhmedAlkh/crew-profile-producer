@@ -3,8 +3,7 @@
 ## To Do
 - Add icons to cards with bootstrap
 - style webpage in styles.css
-- fix intern school prompt validation issue
-- delete comments in lib files
+- make github link open into new tab
 - create readme
 - walkthrough video
 

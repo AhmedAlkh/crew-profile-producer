@@ -122,19 +122,6 @@ return inquirer.prompt([
     },
     {
         type: 'input',
-        message: 'Which school is the intern from?',
-        name: 'school',
-        when:(input) => input.role === 'Intern',
-        validate: (userInput) => {
-            if(userInput) {
-                return true;
-            } else {
-                ('Please enter a valid school name.');
-            }
-        }
-    },
-    {
-        type: 'input',
         message: "Enter the Engineer's GitHub username:",
         name: 'github',
         when:(input) => input.role === 'Engineer',
@@ -143,6 +130,19 @@ return inquirer.prompt([
                 return true;
             } else {
                 console.log('Enter a valid GitHub username.');
+            }
+        }
+    },
+    {
+        type: 'input',
+        message: 'Which school is the intern from?',
+        name: 'school',
+        when:(input) => input.role === 'Intern',
+        validate: (userInput) => {
+            if(userInput) {
+                return true;
+            } else {
+                console.log('Please enter a valid school name.');
             }
         }
     },
