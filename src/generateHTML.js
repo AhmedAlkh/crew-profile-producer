@@ -31,7 +31,7 @@ const createEngineerCard = function (engineer) {
             <div class="bg-light">
                 <p class="pt-2 pl-2 pb-2">ID: ${engineer.id}</p>
                 <p class="pt-2 pl-2 pb-2">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                <p class="pt-2 pl-2 pb-2">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
+                <p class="pt-2 pl-2 pb-2">Github: <a href="https://github.com/${engineer.github}" target="_blank">${engineer.github}</a></p>
             </div>
         </div>
     </div>
