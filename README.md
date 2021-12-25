@@ -1,8 +1,6 @@
 # crew-profile-producer
 
 ## To Do
-- Add icons to cards with bootstrap
-- style webpage in styles.css
 - make github link open into new tab
 - create readme
 - walkthrough video
